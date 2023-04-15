@@ -8,19 +8,17 @@ To install Refresh Rate Toggler, follow these steps:
 
 1. Clone or download the source code from the GitHub repository.
 2. Install the required dependencies using pip: `pip install -r requirements.txt`
-3. Run the app by executing the `main.py` script: `python main.py`
+3. Run the app by executing the `refresh_rate_toggler.py` script: `python refresh_rate_toggler.py`
 
 Alternatively, you can use PyInstaller to create a standalone executable:
 
 1. Install PyInstaller: `pip install pyinstaller`
-2. Build the executable: `pyinstaller --onefile --windowed main.py`
+2. Build the executable: `pyinstaller --onefile --windowed refresh_rate_toggler.py`
 3. The executable will be located in the `dist` folder.
 
 ## Usage
 
 Once the app is running, you can toggle between 144Hz and 60Hz refresh rates by clicking the "Toggle Refresh Rate" menu option in the system tray. The current refresh rate is displayed on the system tray icon.
-
-To exit the app, click the "Exit" menu option in the system tray.
 
 ## License
 
